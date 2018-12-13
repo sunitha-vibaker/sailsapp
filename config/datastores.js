@@ -34,10 +34,7 @@ module.exports.datastores = {
 
   default: {
 
-    localDiskDB:{
-      adapter: 'sails-disk'
-    }
-   
+    
    
   },
   

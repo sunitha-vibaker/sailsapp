@@ -34,7 +34,9 @@ module.exports.datastores = {
 
   default: {
 
-    
+    localDiskDB:{
+      adapter: 'sails-mongo'
+    }
    
   },
   
@@ -43,5 +45,12 @@ mongodb:{
  host: 'mongodb://sunitha:nivedan@1@ds115154.mlab.com:15154/articlebase',
 
 }
+
+/*mongodb:{
+ adapter: 'sails-mongo',
+ host: 'localhost',
+ port:27017,
+ database: 'articlebase'
+}*/
 
 };

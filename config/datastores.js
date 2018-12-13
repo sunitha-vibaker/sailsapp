@@ -34,8 +34,10 @@ module.exports.datastores = {
 
   default: {
 
-    adapter: 'sails-mongo',
-    url: 'mongodb://127.0.0.1:27017/articlebase',
+    localDiskDB:{
+      adapter: 'sails-disk'
+    }
+   
    
   },
   

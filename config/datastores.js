@@ -41,7 +41,7 @@ module.exports.datastores = {
   
 mongodb:{
  adapter: 'sails-mongo',
- host: 'https://sailsprj.herokuapp.com/',
+ host: 'localhost',
  port:27017,
  database: 'articlebase'
 }

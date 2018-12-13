@@ -91,7 +91,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     migrate: 'safe',
-    connect: 'your_mongod_db_adapter_name'
+    connect: 'sails-mongo'
     /***************************************************************************
     *                                                                          *
     * If, in production, this app has access to physical-layer CASCADE         *

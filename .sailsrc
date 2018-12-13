@@ -8,5 +8,9 @@
   },
   "command": {
   "deploy": "sails-deploy"
-}
+},
+"hooks" : {
+          "sockets" : false
+    }
+
 }

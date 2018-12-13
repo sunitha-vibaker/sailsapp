@@ -42,7 +42,7 @@ module.exports.datastores = {
   },
   
 mongodb:{
-  adapter: require('sails-mongo'),
+  adapter: 'sails-mongo',
   url: 'mongodb://sunitha:nivedan@1@ds115154.mlab.com:15154/articlebase',
 
 }

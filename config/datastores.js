@@ -35,16 +35,21 @@ module.exports.datastores = {
   default: {
 
     localDiskDB:{
-      adapter: 'sails-mongo'
+      adapter: 'sails-disk'
     }
+   
    
   },
   
-
 mongodb:{
  adapter: 'sails-mongo',
-
- database: 'mongodb://sunitha:nivedan@1@ds115154.mlab.com:15154/articlebase'
-}
+ host: 'localhost',
+ port:27017,
+ database: 'articlebase'
+},
+productionMongo:{
+  adapter: 'sails-mongo',
+  url: process.env.MONGODB_URI
+ }
 
 };

@@ -9,7 +9,8 @@ module.exports = {
 
   attributes: {
       title:{type:'string'},
-      body:{type:'string'}
+      body:{type:'string'},
+      id: { type: 'string', columnName: '_id' },
   },
   datastore:'mongodb'
 

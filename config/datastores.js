@@ -36,9 +36,7 @@ module.exports.datastores = {
 
     mongodb:{
       adapter: 'sails-mongo',
-      host: '127.0.0.1',
-      port:27017,
-      database: 'articlebase'
+      url:'mongodb://sunitha:nivedan1@ds115154.mlab.com:15154/articlebase'
     },
    
    
@@ -46,15 +44,11 @@ module.exports.datastores = {
   
 mongodb:{
   adapter: 'sails-mongo',
-  host: '127.0.0.1',
-  port:27017,
-  database: 'articlebase'
+  url:'mongodb://sunitha:nivedan1@ds115154.mlab.com:15154/articlebase'
 },
 productionMongo:{
   adapter: 'sails-mongo',
- host: 'ds115154.mlab.com',
- port:15154,
- database: 'articlebase'
+  url:'mongodb://sunitha:nivedan1@ds115154.mlab.com:15154/articlebase'
  }
 
 };

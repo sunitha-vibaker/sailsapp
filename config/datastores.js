@@ -49,7 +49,9 @@ mongodb:{
 },
 productionMongo:{
   adapter: 'sails-mongo',
-  url: process.env.MONGODB_URI
+ host: 'ds115154.mlab.com',
+ port:15154,
+ database: 'articlebase'
  }
 
 };

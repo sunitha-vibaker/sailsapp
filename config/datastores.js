@@ -42,10 +42,10 @@ module.exports.datastores = {
   },
   
 mongodb:{
- adapter: 'sails-mongo',
- host: 'localhost',
- port:27017,
- database: 'articlebase'
+  adapter: 'sails-mongo',
+  host: 'ds115154.mlab.com',
+  port:15154,
+  database: 'articlebase'
 },
 productionMongo:{
   adapter: 'sails-mongo',
